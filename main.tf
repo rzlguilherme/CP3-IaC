@@ -17,7 +17,7 @@ module "rds" {
   source              = "./modules/rds"
   sn_vpc10_priv_1a_id = module.vpc.sn_vpc10_priv_1a_id 
   sn_vpc10_priv_1c_id = module.vpc.sn_vpc10_priv_1c_id 
-  sg_vpc10_priv_id    = module.ec2.sg_vpc10_priv_id 
+  vpc10_sg_priv_id    = module.ec2.vpc10_sg_priv_id
 }
 
 module "ec2" {

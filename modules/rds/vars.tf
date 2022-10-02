@@ -1,9 +1,9 @@
 #SUBNET E SEGURANÇA
-variable "sn_priv_1a_id" {
+variable "sn_vpc10_priv_1a_id" {
   type = string
 }
 
-variable "sn_priv_1c_id" {
+variable "sn_vpc10_priv_1c_id" {
   type = string
 }
 
