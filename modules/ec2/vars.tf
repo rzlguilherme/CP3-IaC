@@ -38,11 +38,11 @@ variable "vpc_id" {
   type = string
 }
 
-variable "sn_pub_1a_id" {
+variable "sn_vpc10_pub_1a_id" {
   type = string
 }
 
-variable "sn_pub_1c_id" {
+variable "sn_vpc10_pub_1c_id" {
   type = string
 }
 
