@@ -105,7 +105,7 @@ resource "aws_lb" "elb_ws" {
 
 # EC2 LAUNCH TEMPLATE
 data "template_file" "user_data" {
-  template = file("./modules/ec2/userdata-notifier.sh")
+  template = file("./app/userdata-notifier.sh")
   vars = {
     rds_endpoint = "${var.rds_endpoint}"
     rds_user     = "${var.rds_user}"
